@@ -11,6 +11,6 @@ ARG git_reponame=equal_experts
 ARG git_server=github.com
 ADD git_user_key /root/.ssh/id_rsa
 RUN ssh-keyscan github.com >> ~/.ssh/known_hosts
-RUN git clone git@${git_server}:${git_username}/${git_reponame} # bustcache: 7021
+RUN git clone git@${git_server}:${git_username}/${git_reponame} # bustcache: 10659
 WORKDIR /gists/equal_experts/github_api
 CMD ["./get_new_gists.sh"]
