@@ -17,4 +17,6 @@ INSERT INTO gist VALUES('ianmiell','947ff3fabc44ace617c6');
 INSERT INTO gist VALUES('ianmiell','bea153d4e51653fef17c2129c08855c2');
 INSERT INTO gist VALUES('ianmiell','87a966216c40e178e2887c2b5d3d46e1');
 INSERT INTO gist VALUES('ianmiell','3c4e4b95ae993d6b36ad18f0fd7c8196');
+INSERT INTO gist VALUES('ianmiell','0b9dd8de61c831486d5888a424a35058');
+INSERT INTO gist VALUES('ianmiell','20cbf0722622a0fb606d2a04ff71150e');
 COMMIT;
